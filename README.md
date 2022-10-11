@@ -14,6 +14,6 @@ Run following commands to start project
 * now open your browser and type url `localhost:3000`
 
 ## Web URL
-* You may preview this webpage on this url:# ExpenseTracker-React
+* You may preview this webpage on this url:# http://localhost:3000/
 # ExpenseTracker-React
 # Expense-Tracker-App
