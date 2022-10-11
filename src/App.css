@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: blueviolet;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,11 +47,22 @@ h4 {
   text-transform: uppercase;
 }
 
+/* Balance */
+
+.balance {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 0.5px;
+  text-align: center;
+}
+.balance ksh {
+  font-size: 45px;
+}
 .inc-exp-container {
-  background-color: rgba(203, 7, 148, 0.578);
+  background-color: white;
   box-shadow: var(--box-shadow);
   padding: 20px;
-  display: flex;
+  display: inline-flexbox;
   justify-content: space-between;
   margin: 20px 0;
 }
@@ -96,11 +107,11 @@ input[type="number"] {
 
 .btn {
   cursor: pointer;
-  background-color: blueviolet;
+  background-color: whitesmoke;
   box-shadow: var(--box-shadow);
-  color: brown;
+  color: black;
   border: o;
-  display: block;
+  display: -ms-flexbox;
   font-size: 16px;
   margin: 10px 0 30px;
   padding: 10px;
